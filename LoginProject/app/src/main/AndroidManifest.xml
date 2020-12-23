@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multinews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".News24"></activity>
+        <activity android:name=".NewsNationCode" />
+        <activity android:name=".GeoTvCode" />
+        <activity android:name=".EuroNewsCode" />
+        <activity android:name=".WionCode" />
+        <activity android:name=".SkyNewsCode" />
+        <activity android:name=".BloomBergCode" />
+        <activity android:name=".Skip" />
+        <activity android:name=".About" />
+        <activity android:name=".Setting" />
+        <activity android:name=".RepublicBharatCode" />
+        <activity android:name=".IndiaAheadCode" />
+        <activity android:name=".AajSmajCode" />
+        <activity android:name=".TimesNowCode" />
+        <activity android:name=".TheTelegraphCode" />
+        <activity android:name=".ParichayTimesCode" />
+        <activity android:name=".TheIndianExpress" />
+        <activity android:name=".DainikBhaskerCode" />
+        <activity android:name=".NdtvCode" />
+        <activity android:name=".PunjabKesariCode" />
+        <activity android:name=".DainikJagran" />
+        <activity android:name=".AmarUjalaCode" />
+        <activity android:name=".IndiaToday" />
+        <activity android:name=".AajTakCode" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SplashLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

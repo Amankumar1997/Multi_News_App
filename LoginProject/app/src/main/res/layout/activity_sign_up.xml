@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/ground2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+
+
+
+    <TextView
+        android:id="@+id/text3"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#E64A19"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Name"
+        android:id="@+id/namesignuptext"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/emailsignuptext"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:password="true"
+        android:id="@+id/passwordsignuptext"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/confirmpasswordsignuptext"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:password="true"
+        ></EditText>
+    <ImageView
+
+        android:id="@+id/buttonsignup1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:hint="Sign up"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signup"
+        ></ImageView>
+    <TextView
+
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to login"
+        android:layout_marginTop="35dp"
+android:textColor="#1976D2"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/buttonloginbackto"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-45dp"
+        android:hint="login"
+        android:src="@drawable/login"></ImageView>
+
+
+</LinearLayout>
